@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\MunchkinExample.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{AD96AC9C-B5C0-4EDC-8972-C83D3F945915}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\MunchkinExample.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\MunchkinExampleEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{B7534BD3-61CC-4269-9C24-4C93EF96F3F1}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\MunchkinExample">
+			<UniqueIdentifier>{8CF515FF-FD1B-4C61-B042-E228751E553C}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\MunchkinExample\MunchkinExample.Build.cs">
+			<Filter>Source\MunchkinExample</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\MunchkinExample\MunchkinExample.cpp">
+			<Filter>Source\MunchkinExample</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MunchkinExample\MunchkinExample.h">
+			<Filter>Source\MunchkinExample</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\MunchkinExample\MunchkinExampleCharacter.cpp">
+			<Filter>Source\MunchkinExample</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MunchkinExample\MunchkinExampleCharacter.h">
+			<Filter>Source\MunchkinExample</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\MunchkinExample\MunchkinExampleGameMode.cpp">
+			<Filter>Source\MunchkinExample</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MunchkinExample\MunchkinExampleGameMode.h">
+			<Filter>Source\MunchkinExample</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
