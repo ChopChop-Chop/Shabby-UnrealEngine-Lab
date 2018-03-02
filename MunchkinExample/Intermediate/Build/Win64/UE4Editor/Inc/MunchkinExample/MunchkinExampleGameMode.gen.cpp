@@ -6,7 +6,6 @@
 
 #include "GeneratedCppIncludes.h"
 #include "MunchkinExampleGameMode.h"
-PRAGMA_DISABLE_OPTIMIZATION
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -28,38 +27,43 @@ void EmptyLinkFunctionForGeneratedCodeMunchkinExampleGameMode() {}
 	}
 	UClass* Z_Construct_UClass_AMunchkinExampleGameMode()
 	{
-		static UClass* OuterClass = NULL;
+		static UClass* OuterClass = nullptr;
 		if (!OuterClass)
 		{
-			Z_Construct_UClass_AGameModeBase();
-			Z_Construct_UPackage__Script_MunchkinExample();
-			OuterClass = AMunchkinExampleGameMode::StaticClass();
-			if (!(OuterClass->ClassFlags & CLASS_Constructed))
-			{
-				UObjectForceRegistration(OuterClass);
-				OuterClass->ClassFlags |= (EClassFlags)0x20880288u;
-
-
-				static TCppClassTypeInfo<TCppClassTypeTraits<AMunchkinExampleGameMode> > StaticCppClassTypeInfo;
-				OuterClass->SetCppTypeInfo(&StaticCppClassTypeInfo);
-				OuterClass->StaticLink();
+			static UObject* (*const DependentSingletons[])() = {
+				(UObject* (*)())Z_Construct_UClass_AGameModeBase,
+				(UObject* (*)())Z_Construct_UPackage__Script_MunchkinExample,
+			};
 #if WITH_METADATA
-				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
-				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering Utilities|Transformation"));
-				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("MunchkinExampleGameMode.h"));
-				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("MunchkinExampleGameMode.h"));
-				MetaData->SetValue(OuterClass, TEXT("ShowCategories"), TEXT("Input|MouseInput Input|TouchInput"));
+			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
+				{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering Utilities|Transformation" },
+				{ "IncludePath", "MunchkinExampleGameMode.h" },
+				{ "ModuleRelativePath", "MunchkinExampleGameMode.h" },
+				{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
+			};
 #endif
-			}
+			static const FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
+				TCppClassTypeTraits<AMunchkinExampleGameMode>::IsAbstract,
+			};
+			static const UE4CodeGen_Private::FClassParams ClassParams = {
+				&AMunchkinExampleGameMode::StaticClass,
+				DependentSingletons, ARRAY_COUNT(DependentSingletons),
+				0x00880288u,
+				nullptr, 0,
+				nullptr, 0,
+				nullptr,
+				&StaticCppClassTypeInfo,
+				nullptr, 0,
+				METADATA_PARAMS(Class_MetaDataParams, ARRAY_COUNT(Class_MetaDataParams))
+			};
+			UE4CodeGen_Private::ConstructUClass(OuterClass, ClassParams);
 		}
-		check(OuterClass->GetClass());
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMunchkinExampleGameMode, 2833701937);
+	IMPLEMENT_CLASS(AMunchkinExampleGameMode, 1933544112);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AMunchkinExampleGameMode(Z_Construct_UClass_AMunchkinExampleGameMode, &AMunchkinExampleGameMode::StaticClass, TEXT("/Script/MunchkinExample"), TEXT("AMunchkinExampleGameMode"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AMunchkinExampleGameMode);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #ifdef _MSC_VER
 #pragma warning (pop)
 #endif
-PRAGMA_ENABLE_OPTIMIZATION
