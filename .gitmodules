@@ -1,3 +1,6 @@
 [submodule "MunchkinExample/Plugins"]
 	path = MunchkinExample/Plugins
 	url = https://github.com/getnamo/socketio-client-ue4.git
+[submodule "MunchkinExample/Plugins/SocketIO"]
+	path = MunchkinExample/Plugins/SocketIO
+	url = https://github.com/getnamo/socketio-client-ue4.git
