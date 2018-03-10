@@ -1,3 +1,7 @@
-E:\Dev\UnrealProject\Shabby-UnrealEngine-Lab\MunchkinExample\Source\MunchkinExample\MunchkinExample.Build.cs
-E:\Dev\UnrealProject\Shabby-UnrealEngine-Lab\MunchkinExample\Source\MunchkinExample.Target.cs
-E:\Dev\UnrealProject\Shabby-UnrealEngine-Lab\MunchkinExample\Source\MunchkinExampleEditor.Target.cs
+\\Mac\Home\Desktop\test\MunchkinExample\Source\MunchkinExample\MunchkinExample.Build.cs
+\\Mac\Home\Desktop\test\MunchkinExample\Plugins\SocketIO\Source\CoreUtility\CoreUtility.Build.cs
+\\Mac\Home\Desktop\test\MunchkinExample\Plugins\SocketIO\Source\SocketIOClient\SocketIOClient.Build.cs
+\\Mac\Home\Desktop\test\MunchkinExample\Plugins\SocketIO\Source\SIOJEditorPlugin\SIOJEditorPlugin.Build.cs
+\\Mac\Home\Desktop\test\MunchkinExample\Plugins\SocketIO\Source\SIOJson\SIOJson.Build.cs
+\\Mac\Home\Desktop\test\MunchkinExample\Source\MunchkinExampleEditor.Target.cs
+\\Mac\Home\Desktop\test\MunchkinExample\Source\MunchkinExample.Target.cs

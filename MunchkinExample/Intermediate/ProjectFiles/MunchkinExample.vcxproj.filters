@@ -4,18 +4,18 @@
 	<ItemGroup>
 		<None Include="..\..\MunchkinExample.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{B917F02E-1A24-42CA-92C0-DAE95D9C70E5}</UniqueIdentifier>
+			<UniqueIdentifier>{66A24BE3-3651-4586-9D4B-8632CA4C63B7}</UniqueIdentifier>
 		</Filter>
-		<None Include="..\..\Source\MunchkinExample.Target.cs">
-			<Filter>Source</Filter>
-		</None >
 		<None Include="..\..\Source\MunchkinExampleEditor.Target.cs">
 			<Filter>Source</Filter>
 		</None >
+		<None Include="..\..\Source\MunchkinExample.Target.cs">
+			<Filter>Source</Filter>
+		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{88F29CED-5829-48D3-9C34-8BD2BE999D33}</UniqueIdentifier>
+			<UniqueIdentifier>{792C9AF8-04AF-40F2-8857-4A21C5FA2EF8}</UniqueIdentifier>
 		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
+		<None Include="..\..\Config\DefaultGame.ini">
 			<Filter>Config</Filter>
 		</None >
 		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
@@ -24,31 +24,211 @@
 		<None Include="..\..\Config\DefaultEngine.ini">
 			<Filter>Config</Filter>
 		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
 		<None Include="..\..\Config\DefaultInput.ini">
 			<Filter>Config</Filter>
 		</None >
-		<Filter Include="Source\MunchkinExample">
-			<UniqueIdentifier>{DDD0E8AB-4941-40DE-87C8-5D04062828E1}</UniqueIdentifier>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Plugins">
+			<UniqueIdentifier>{25C478C9-83DE-4442-BF0A-231C2BCFB467}</UniqueIdentifier>
 		</Filter>
+		<Filter Include="Plugins\SocketIO">
+			<UniqueIdentifier>{1E1D65AD-A4A5-4F94-8032-5F4A02A47554}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\SocketIO\Source">
+			<UniqueIdentifier>{87B542AF-5BA6-439D-B138-4104B2C06424}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\SocketIO\Source\CoreUtility">
+			<UniqueIdentifier>{38034A7D-2E57-4C2D-B7D5-BE1D632A254A}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\SocketIO\Source\CoreUtility\CoreUtility.Build.cs">
+			<Filter>Plugins\SocketIO\Source\CoreUtility</Filter>
+		</None >
+		<Filter Include="Plugins\SocketIO\Source\CoreUtility\Public">
+			<UniqueIdentifier>{5B52E49B-1CDC-4A82-B5B4-2C15B6583B64}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\SocketIO\Source\CoreUtility\Public\ICoreUtility.h">
+			<Filter>Plugins\SocketIO\Source\CoreUtility\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\SocketIO\Source\CoreUtility\Public\FileUtilityComponent.h">
+			<Filter>Plugins\SocketIO\Source\CoreUtility\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\SocketIO\Source\CoreUtility\Public\CoreUtilityBPLibrary.h">
+			<Filter>Plugins\SocketIO\Source\CoreUtility\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\SocketIO\Source\CoreUtility\Public\LambdaRunnable.h">
+			<Filter>Plugins\SocketIO\Source\CoreUtility\Public</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\SocketIO\Source\CoreUtility\Private">
+			<UniqueIdentifier>{E9C17B59-8BF9-48B1-B294-3C1EA0CADB49}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\SocketIO\Source\CoreUtility\Private\LambdaRunnable.cpp">
+			<Filter>Plugins\SocketIO\Source\CoreUtility\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\SocketIO\Source\CoreUtility\Private\CoreUtilityPrivatePCH.h">
+			<Filter>Plugins\SocketIO\Source\CoreUtility\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\SocketIO\Source\CoreUtility\Private\FileUtilityComponent.cpp">
+			<Filter>Plugins\SocketIO\Source\CoreUtility\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\SocketIO\Source\CoreUtility\Private\CoreUtilityBPLibrary.cpp">
+			<Filter>Plugins\SocketIO\Source\CoreUtility\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\SocketIO\Source\CoreUtility\Private\FCoreUtility.cpp">
+			<Filter>Plugins\SocketIO\Source\CoreUtility\Private</Filter>
+		</ClCompile >
+		<None Include="..\..\Plugins\SocketIO\SocketIOClient.uplugin">
+			<Filter>Plugins\SocketIO</Filter>
+		</None >
+		<Filter Include="Plugins\SocketIO\Resources">
+			<UniqueIdentifier>{284CDC98-5D87-4AD9-BD27-71755D3B6174}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\SocketIO\Resources\Icon128.png">
+			<Filter>Plugins\SocketIO\Resources</Filter>
+		</None >
+		<Filter Include="Plugins\SocketIO\Source\SocketIOClient">
+			<UniqueIdentifier>{904111D3-24E9-4488-9540-E31DF83177E8}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\SocketIO\Source\SocketIOClient\SocketIOClient_APL.xml">
+			<Filter>Plugins\SocketIO\Source\SocketIOClient</Filter>
+		</None >
+		<None Include="..\..\Plugins\SocketIO\Source\SocketIOClient\SocketIOClient.Build.cs">
+			<Filter>Plugins\SocketIO\Source\SocketIOClient</Filter>
+		</None >
+		<Filter Include="Plugins\SocketIO\Source\SocketIOClient\Public">
+			<UniqueIdentifier>{F9AD8FA3-3629-4505-9547-70F2BEB7B438}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\SocketIO\Source\SocketIOClient\Public\SIOMessageConvert.h">
+			<Filter>Plugins\SocketIO\Source\SocketIOClient\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\SocketIO\Source\SocketIOClient\Public\SocketIOClient.h">
+			<Filter>Plugins\SocketIO\Source\SocketIOClient\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\SocketIO\Source\SocketIOClient\Public\SocketIOClientComponent.h">
+			<Filter>Plugins\SocketIO\Source\SocketIOClient\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\SocketIO\Source\SocketIOClient\Public\SocketIONative.h">
+			<Filter>Plugins\SocketIO\Source\SocketIOClient\Public</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\SocketIO\Source\SocketIOClient\Private">
+			<UniqueIdentifier>{24873B66-936B-41F5-A306-CE48975AFD68}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\SocketIO\Source\SocketIOClient\Private\SocketIOClient.cpp">
+			<Filter>Plugins\SocketIO\Source\SocketIOClient\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\SocketIO\Source\SocketIOClient\Private\SocketIOClientPrivatePCH.h">
+			<Filter>Plugins\SocketIO\Source\SocketIOClient\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\SocketIO\Source\SocketIOClient\Private\SocketIOClientComponent.cpp">
+			<Filter>Plugins\SocketIO\Source\SocketIOClient\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\SocketIO\Source\SocketIOClient\Private\SocketIONative.cpp">
+			<Filter>Plugins\SocketIO\Source\SocketIOClient\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\SocketIO\Source\SocketIOClient\Private\SIOMessageConvert.cpp">
+			<Filter>Plugins\SocketIO\Source\SocketIOClient\Private</Filter>
+		</ClCompile >
+		<Filter Include="Plugins\SocketIO\Source\SIOJEditorPlugin">
+			<UniqueIdentifier>{741D2B8F-DB87-454F-8938-063BD9D9C629}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\SocketIO\Source\SIOJEditorPlugin\SIOJEditorPlugin.Build.cs">
+			<Filter>Plugins\SocketIO\Source\SIOJEditorPlugin</Filter>
+		</None >
+		<Filter Include="Plugins\SocketIO\Source\SIOJEditorPlugin\Public">
+			<UniqueIdentifier>{B6E69FAF-60FC-4179-96D2-A8840DC450A9}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\SocketIO\Source\SIOJEditorPlugin\Public\SIOJEditorPlugin.h">
+			<Filter>Plugins\SocketIO\Source\SIOJEditorPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\SocketIO\Source\SIOJEditorPlugin\Public\SIOJ_BreakJson.h">
+			<Filter>Plugins\SocketIO\Source\SIOJEditorPlugin\Public</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\SocketIO\Source\SIOJEditorPlugin\Private">
+			<UniqueIdentifier>{3F6BBC11-D330-4002-B219-F2AF833452E4}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\SocketIO\Source\SIOJEditorPlugin\Private\SIOJ_BreakJson.cpp">
+			<Filter>Plugins\SocketIO\Source\SIOJEditorPlugin\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\SocketIO\Source\SIOJEditorPlugin\Private\SIOJEditorPluginPrivatePCH.h">
+			<Filter>Plugins\SocketIO\Source\SIOJEditorPlugin\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\SocketIO\Source\SIOJEditorPlugin\Private\SIOJEditorPlugin.cpp">
+			<Filter>Plugins\SocketIO\Source\SIOJEditorPlugin\Private</Filter>
+		</ClCompile >
+		<Filter Include="Plugins\SocketIO\Source\SIOJson">
+			<UniqueIdentifier>{EDDB7582-4783-47F0-AC6E-08CAE34B1DB8}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\SocketIO\Source\SIOJson\SIOJson.Build.cs">
+			<Filter>Plugins\SocketIO\Source\SIOJson</Filter>
+		</None >
+		<Filter Include="Plugins\SocketIO\Source\SIOJson\Public">
+			<UniqueIdentifier>{EEFDE5B8-6989-4166-8BC2-5AEE70CA4A3D}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\SocketIO\Source\SIOJson\Public\SIOJsonObject.h">
+			<Filter>Plugins\SocketIO\Source\SIOJson\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\SocketIO\Source\SIOJson\Public\SIOJLibrary.h">
+			<Filter>Plugins\SocketIO\Source\SIOJson\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\SocketIO\Source\SIOJson\Public\ISIOJson.h">
+			<Filter>Plugins\SocketIO\Source\SIOJson\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\SocketIO\Source\SIOJson\Public\SIOJsonValue.h">
+			<Filter>Plugins\SocketIO\Source\SIOJson\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\SocketIO\Source\SIOJson\Public\SIOJRequestJSON.h">
+			<Filter>Plugins\SocketIO\Source\SIOJson\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\SocketIO\Source\SIOJson\Public\SIOJTypes.h">
+			<Filter>Plugins\SocketIO\Source\SIOJson\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\SocketIO\Source\SIOJson\Public\SIOJConvert.h">
+			<Filter>Plugins\SocketIO\Source\SIOJson\Public</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\SocketIO\Source\SIOJson\Private">
+			<UniqueIdentifier>{0D4D04F3-B140-476D-8DB4-FA3160E47954}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\SocketIO\Source\SIOJson\Private\SIOJConvert.cpp">
+			<Filter>Plugins\SocketIO\Source\SIOJson\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\SocketIO\Source\SIOJson\Private\SIOJRequestJSON.cpp">
+			<Filter>Plugins\SocketIO\Source\SIOJson\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\SocketIO\Source\SIOJson\Private\SIOJson.cpp">
+			<Filter>Plugins\SocketIO\Source\SIOJson\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\SocketIO\Source\SIOJson\Private\SIOJsonPrivatePCH.h">
+			<Filter>Plugins\SocketIO\Source\SIOJson\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\SocketIO\Source\SIOJson\Private\SIOJsonObject.cpp">
+			<Filter>Plugins\SocketIO\Source\SIOJson\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\SocketIO\Source\SIOJson\Private\SIOJLibrary.cpp">
+			<Filter>Plugins\SocketIO\Source\SIOJson\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\SocketIO\Source\SIOJson\Private\SIOJsonValue.cpp">
+			<Filter>Plugins\SocketIO\Source\SIOJson\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\MunchkinExample">
+			<UniqueIdentifier>{A9D747F8-88EE-4BFD-BC26-E27816F70CB0}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\MunchkinExample\MunchkinExampleGameMode.cpp">
+			<Filter>Source\MunchkinExample</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MunchkinExample\MunchkinExampleCharacter.h">
+			<Filter>Source\MunchkinExample</Filter>
+		</ClInclude >
 		<None Include="..\..\Source\MunchkinExample\MunchkinExample.Build.cs">
 			<Filter>Source\MunchkinExample</Filter>
 		</None >
-		<ClCompile Include="..\..\Source\MunchkinExample\MunchkinExample.cpp">
-			<Filter>Source\MunchkinExample</Filter>
-		</ClCompile >
 		<ClInclude Include="..\..\Source\MunchkinExample\MunchkinExample.h">
 			<Filter>Source\MunchkinExample</Filter>
 		</ClInclude >
 		<ClCompile Include="..\..\Source\MunchkinExample\MunchkinExampleCharacter.cpp">
 			<Filter>Source\MunchkinExample</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\Source\MunchkinExample\MunchkinExampleCharacter.h">
-			<Filter>Source\MunchkinExample</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\MunchkinExample\MunchkinExampleGameMode.cpp">
+		<ClCompile Include="..\..\Source\MunchkinExample\MunchkinExample.cpp">
 			<Filter>Source\MunchkinExample</Filter>
 		</ClCompile >
 		<ClInclude Include="..\..\Source\MunchkinExample\MunchkinExampleGameMode.h">
