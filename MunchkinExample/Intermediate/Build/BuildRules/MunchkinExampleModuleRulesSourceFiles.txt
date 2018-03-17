@@ -1,7 +1,7 @@
-\\Mac\Home\Desktop\test\MunchkinExample\Source\MunchkinExample\MunchkinExample.Build.cs
-\\Mac\Home\Desktop\test\MunchkinExample\Plugins\SocketIO\Source\CoreUtility\CoreUtility.Build.cs
-\\Mac\Home\Desktop\test\MunchkinExample\Plugins\SocketIO\Source\SocketIOClient\SocketIOClient.Build.cs
-\\Mac\Home\Desktop\test\MunchkinExample\Plugins\SocketIO\Source\SIOJEditorPlugin\SIOJEditorPlugin.Build.cs
-\\Mac\Home\Desktop\test\MunchkinExample\Plugins\SocketIO\Source\SIOJson\SIOJson.Build.cs
-\\Mac\Home\Desktop\test\MunchkinExample\Source\MunchkinExampleEditor.Target.cs
-\\Mac\Home\Desktop\test\MunchkinExample\Source\MunchkinExample.Target.cs
+/Volumes/PartitionDrive/Shabby-UnrealEngine-Lab/MunchkinExample/Source/MunchkinExample/MunchkinExample.Build.cs
+/Volumes/PartitionDrive/Shabby-UnrealEngine-Lab/MunchkinExample/Plugins/socketio-client-ue4/Source/CoreUtility/CoreUtility.Build.cs
+/Volumes/PartitionDrive/Shabby-UnrealEngine-Lab/MunchkinExample/Plugins/socketio-client-ue4/Source/SIOJEditorPlugin/SIOJEditorPlugin.Build.cs
+/Volumes/PartitionDrive/Shabby-UnrealEngine-Lab/MunchkinExample/Plugins/socketio-client-ue4/Source/SIOJson/SIOJson.Build.cs
+/Volumes/PartitionDrive/Shabby-UnrealEngine-Lab/MunchkinExample/Plugins/socketio-client-ue4/Source/SocketIOClient/SocketIOClient.Build.cs
+/Volumes/PartitionDrive/Shabby-UnrealEngine-Lab/MunchkinExample/Source/MunchkinExample.Target.cs
+/Volumes/PartitionDrive/Shabby-UnrealEngine-Lab/MunchkinExample/Source/MunchkinExampleEditor.Target.cs
